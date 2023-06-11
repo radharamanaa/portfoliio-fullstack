@@ -7,8 +7,11 @@ function App() {
   const location = useLocation();
   const navigate = useNavigate();
   useEffect(() => {
-    if (location.pathname && location.pathname === "/") {
-      navigate("/about");
+    if (
+      location.pathname &&
+      location.pathname.includes("portfoliio-fullstack")
+    ) {
+      navigate("portfoliio-fullstack/about");
     }
   }, []);
 

@@ -13,31 +13,31 @@ import ContactMe from "./components/ContactMe";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfoliio-fullstack",
     element: <App />,
     children: [
       {
-        path: "/about",
+        path: "portfoliio-fullstack/about",
         element: <About />,
       },
       {
-        path: "/experience",
+        path: "portfoliio-fullstack/experience",
         element: <Experience />,
       },
       {
-        path: "/skills",
+        path: "portfoliio-fullstack/skills",
         element: <Skills />,
       },
       {
-        path: "/github",
+        path: "portfoliio-fullstack/github",
         element: <Github />,
       },
       {
-        path: "/education",
+        path: "portfoliio-fullstack/education",
         element: <Education />,
       },
       {
-        path: "/contactme",
+        path: "portfoliio-fullstack/contactme",
         element: <ContactMe />,
       },
     ],
