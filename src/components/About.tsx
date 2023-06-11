@@ -5,7 +5,7 @@ import svgImage from "../assets/undraw_developer_activity_re_39tg (1).svg";
 const About: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto bg-slate-800/50 p-4">
-      <motion.div className="grid grid-cols-12 intro mx-auto text-white mt-8 ">
+      <motion.div className="grid grid-cols-12 intro mx-auto text-white mt-8 pb-16">
         <div className="col-span-12 md:col-span-8  w-full mx-auto">
           <div className="flex flex-col p-4 gap-4">
             <div
