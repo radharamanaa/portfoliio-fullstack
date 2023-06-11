@@ -18,7 +18,7 @@ const RightHeader: React.FC = () => {
         <NavLink to="education">Education</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="education">Contact Me</NavLink>
+        <NavLink to="contactme">Contact Me</NavLink>
       </motion.div>
     </motion.div>
   );
