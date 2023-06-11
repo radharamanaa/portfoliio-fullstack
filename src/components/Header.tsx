@@ -5,11 +5,25 @@ import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const variants = {
+    initial: {
+      y: -100,
+    },
+    animate: {
+      y: 0,
+    },
+    transition: {
+      duration: 2,
+      type: "spring",
+      stiffness: 100,
+    },
+  };
   return (
     <motion.header
       className="max-w-6xl flex flex-wrap justify-center md:justify-between items-center mx-auto border-b-2 p-2 bg-slate-800/50"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
+      transition={{ duration: 2, type: "spring", stiffness: 100 }}
     >
       <motion.h2
         className="ml-4 text-3xl text-slate-100 cursor-pointer font-playfair font-semibold tracking-wider 
