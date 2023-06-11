@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfoliio-fullstack/static/css/main.124a6dd1.css",
+    "main.js": "/portfoliio-fullstack/static/js/main.0a468e94.js",
+    "static/media/undraw_developer_activity_re_39tg (1).svg": "/portfoliio-fullstack/static/media/undraw_developer_activity_re_39tg (1).a38f22324539c16626e93eaa54d3510b.svg",
+    "index.html": "/portfoliio-fullstack/index.html",
+    "main.124a6dd1.css.map": "/portfoliio-fullstack/static/css/main.124a6dd1.css.map",
+    "main.0a468e94.js.map": "/portfoliio-fullstack/static/js/main.0a468e94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.124a6dd1.css",
+    "static/js/main.0a468e94.js"
+  ]
+}
