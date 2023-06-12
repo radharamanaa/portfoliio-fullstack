@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/portfoliio-fullstack/static/css/main.8355ecb5.css",
-    "main.js": "/portfoliio-fullstack/static/js/main.dd2d47d8.js",
+    "main.css": "/portfoliio-fullstack/static/css/main.876d2fbb.css",
+    "main.js": "/portfoliio-fullstack/static/js/main.80c9b90c.js",
+    "static/media/space-process-of-transferring-information-using-computer-technology.png": "/portfoliio-fullstack/static/media/space-process-of-transferring-information-using-computer-technology.41a973cda5787c5bdf03.png",
     "static/media/undraw_developer_activity_re_39tg (1).svg": "/portfoliio-fullstack/static/media/undraw_developer_activity_re_39tg (1).a38f22324539c16626e93eaa54d3510b.svg",
+    "static/media/urban-line-office-chair-line.png": "/portfoliio-fullstack/static/media/urban-line-office-chair-line.340f9fb960bbad921fe0.png",
     "index.html": "/portfoliio-fullstack/index.html",
-    "main.8355ecb5.css.map": "/portfoliio-fullstack/static/css/main.8355ecb5.css.map",
-    "main.dd2d47d8.js.map": "/portfoliio-fullstack/static/js/main.dd2d47d8.js.map"
+    "main.876d2fbb.css.map": "/portfoliio-fullstack/static/css/main.876d2fbb.css.map",
+    "main.80c9b90c.js.map": "/portfoliio-fullstack/static/js/main.80c9b90c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8355ecb5.css",
-    "static/js/main.dd2d47d8.js"
+    "static/css/main.876d2fbb.css",
+    "static/js/main.80c9b90c.js"
   ]
 }
