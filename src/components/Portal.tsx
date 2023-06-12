@@ -15,7 +15,7 @@ const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
     justify-center items-center z-10 w-full inset-0 bottom-0"
     >
       <motion.div
-        className="max-w-xl relative mt-16 bg-slate-900/80"
+        className="max-w-xl relative mt-16 bg-slate-900/80 mb-32"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, type: "spring", stiffness: 80 }}

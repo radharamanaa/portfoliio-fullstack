@@ -19,12 +19,13 @@ const Experience: React.FC = () => {
       className="max-w-4xl mx-auto bg-slate-700/50 flex gap-4 flex-wrap 
     justify-center mb-8 mt-8"
     >
-      {experiences.map((exp) => {
+      {experiences.map((exp, index) => {
         return (
           <SingleExperience
             key={exp.company}
             exp={exp}
             openPortal={openPortal}
+            index={index * 0.2}
           />
         );
       })}

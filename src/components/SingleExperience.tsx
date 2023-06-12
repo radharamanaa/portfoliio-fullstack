@@ -1,17 +1,23 @@
 import React from "react";
 import { ExperienceData } from "../types/types";
+import { motion } from "framer-motion";
 interface SingleExperienceProps {
   exp: ExperienceData;
   openPortal: (id: number) => void;
+  index: number;
 }
 const SingleExperience: React.FC<SingleExperienceProps> = ({
   exp,
   openPortal,
+  index,
 }) => {
   return (
-    <div
+    <motion.div
       className="flex flex-col mt-8 bg-gradient-to-r from-sky-800 to-cyan-800 max-w-sm p-4 cursor-pointer"
       onClick={() => openPortal(exp.id)}
+      initial={{ x: "-150vw" }}
+      animate={{ x: 0 }}
+      transition={{ delay: index }}
     >
       <div className="company-name  text-slate-100 self-center text-xl font-playfair first-letter:text-lime-400">
         {exp.company}
@@ -25,7 +31,7 @@ const SingleExperience: React.FC<SingleExperienceProps> = ({
       <div className="mt-4 achievements text-sm text-slate-100 mb-4 font-raleway tracking-wider indent-8">
         {exp.projects}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
