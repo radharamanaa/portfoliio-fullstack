@@ -1,15 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
+
 body {
-  background: rgb(237, 242, 150);
-  background: radial-gradient(
-    circle,
-    rgba(237, 242, 150, 0.8) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
-} */
+  background-color: #0c4a6e;
+}
 
 .bg-gradient {
   /* background: rgb(51, 65, 85);

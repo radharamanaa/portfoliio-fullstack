@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "company": "Value labs",
+    "duration": "2023 - Present",
+    "aboutCompany": "A trusted technology partner to over 300 clients globally, serving them from 26 offices worldwide",
+    "role": "Senior Analyst",
+    "techUsed": "Technologies Used: Java, Spring Framework, Spring Boot, REST, Spring Testing, JEST React Testing, JavaScript, Typescript, Apache Kafka, Maven,Mustache lib, HTML5, CSS3 and Agile Methodology.",
+    "projects": "Valuepedia(valuepedia.valuelabs.com) a site which tracks all the success stories of the company and heavily used by the sales team. My role was to integrate many modules into the existing site namely Feedback and AI chat module in VueJS. Survey Form Generator as mentioned above.",
+    "achievements": "As a Team Lead, aligned the team in clean code principles, conducted trainings on Front end technologies, CSS, ReactJS & Java, DB Design Normal Forms. Achieved Star of the month Award."
+  },
+  {
+    "id": 2,
+    "company": "Zemoso Labs",
+    "duration": "May 2021 - Feb 2023",
+    "aboutCompany": "A product-market-fit studio founded and maintained by successful corporate innovation with Baker-Hughes(Oil & Gas) as a Client.",
+    "role": "Senior Software DET",
+    "techUsed": "Java, Spring Framework, Javascript, HTML5, CSS3, ReactJS, NextJS, SQL ",
+    "projects": "IAPM - Developed tools which read API data from the user and generate JSON files for Cyborg(Testing tool). Front end, BDD test scripting in Cyborg. Logging bugs, Validating User Stories, promoting builds, acceptance discussions were the roles.",
+    "achievements": "Letter of Excellence for continuous two quarters for extended myself, developed tools, guided the team in clean code principles, integrated Spring framework in the Testing tool, Cyborg(an in house Selenium wrapper tool). "
+  },
+  {
+    "id": 3,
+    "company": "Rolta India Ltd",
+    "duration": "May 2015 - Jan 2018",
+    "aboutCompany": "The company focuses on IT, Business Intelligence and BigData Analytics, Geographic data and information and Engineering.",
+    "role": "Senior Software Developer",
+    "techUsed": "SQL, Java, Maven and Java FX for the front end.",
+    "projects": "RBMS - Rolta Battle Field management System is used by the commander to get a real time operating picture of the War. Real time reporting by soldiers using hand wrist device, threat planning anddetection were the features.",
+    "achievements": "RBMS - Rolta Battle Field management System is used by the commander to get a real time operating picture of the War. Real time reporting by soldiers using hand wrist device, threat planning and detection were the features."
+  },
+  {
+    "id": 4,
+    "company": "Elitser IT Solutions",
+    "duration": "May 2014 - April 2015",
+    "aboutCompany": "Elitser has developed and deployed many enterprise-class solutions in the areas of Microfinance, Security Systems, Healthcare.",
+    "role": "Software Programmer",
+    "techUsed": "Java, JavaScript, SQL, Hibernate, Database Design, HTML, CSS",
+    "projects": "- Developed a Visitor Management system using Java Technologies, which tracks visitors in on Organization, tracks time, generates and emails reports. Guided a team of 5 developers in various aspects of Front end and backend Development.",
+    "achievements": "Learnt all aspects of giving guidance to junior developers in a Commercial Project, conducted trainings and drove the project to successful completion."
+  },
+  {
+    "id": 5,
+    "company": "Amazon Development Center",
+    "duration": "Jan 2013 - Dec 2013",
+    "aboutCompany": "E-Commerce Giant which has its presence in most Countries",
+    "role": "Content Test Associate",
+    "techUsed": "Java, Selenium & Manual Testing",
+    "projects": "Testing compatibility of existing famous apps in Amazon playstore with latest devices of Amazon, writing scripts to validate data in Internal Sites",
+    "achievements": ""
+  }
+]
