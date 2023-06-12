@@ -12,7 +12,7 @@ const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
   return (
     <div
       className="absolute bg-slate-900/90 flex 
-    justify-center items-center z-10 w-full inset-0 bottom-0"
+    justify-center items-center z-10 w-full h-screen inset-0 bottom-0"
     >
       <motion.div
         className="max-w-xl relative mt-16 bg-slate-900/80 mb-32"
@@ -37,29 +37,29 @@ const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
           <div className="duration text-xs text-slate-100 self-center max-w-prose text-center">
             {exp.aboutCompany}
           </div>
-          <div className="role mt-8 text-sm text-slate-100 pb-1  ">
+          <div className="px-4 role mt-8 text-sm text-slate-100 pb-1  ">
             <span className="underline decoration-dashed decoration-1 underline-offset-2">
               {exp.role}
             </span>
             <span className="text-slate-300">:&nbsp;{exp.duration} </span>
           </div>
 
-          <div className="mt-4 achievements text-sm text-slate-100 mb-4  tracking-wider ">
+          <div className="ml-4 mt-1 achievements text-sm text-slate-100  tracking-wider ">
             {exp.projects}
           </div>
           {exp.achievements && (
-            <div className="grid grid-cols-12 items-center  p-4">
-              <div className="col-span-8 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">
+            <div className="grid grid-cols-12 items-center">
+              <div className="col-span-8 ml-4 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">
                 {exp.achievements}
               </div>
-              <div className="col-span-4 h-32 md:w-32 bg-slate-100 rounded-full flex items-center justify-center rotate">
+              <div className="col-span-4 place-self-end justify-center h-32 md:w-32 bg-slate-100 rounded-full flex items-center rotate">
                 <img src={role} className="h-24" />
               </div>
             </div>
           )}
-          <div className="grid grid-cols-12 items-center  p-4 ">
-            <div className="col-span-4 w-16 md:w-32 bg-slate-100">
-              <img src={tech} />
+          <div className="grid grid-cols-12 items-center  px-4 bg-transparent">
+            <div className="col-span-4 w-16 md:w-32 bg-white rounded-full overflow-clip">
+              <img src={tech} className="bg-slate-100" />
             </div>
             <div className="col-span-8 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">
               {exp.techUsed}

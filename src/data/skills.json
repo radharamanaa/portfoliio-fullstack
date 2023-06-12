@@ -1,0 +1,14 @@
+[
+  { "tech": "Java", "rating": 4 },
+  { "tech": "Spring Framework", "rating": 4 },
+  { "tech": "Spring Boot", "rating": 4 },
+  { "tech": "Javascript", "rating": 4 },
+  { "tech": "Apache Kafka", "rating": 4 },
+  { "tech": "MicroServices", "rating": 4 },
+  { "tech": "Git - Version Control", "rating": 4 },
+  { "tech": "ReactJS", "rating": 4 },
+  { "tech": "HTML", "rating": 4 },
+  { "tech": "CSS", "rating": 4 },
+  { "tech": "Tyepscript", "rating": 4 },
+  { "tech": "VueJS", "rating": 3 }
+]
