@@ -52,13 +52,13 @@ const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
               <div className="col-span-8 ml-4 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">
                 {exp.achievements}
               </div>
-              <div className="col-span-4 place-self-end justify-center h-32 md:w-32 bg-slate-100 rounded-full flex items-center rotate">
-                <img src={role} className="h-24" />
+              <div className="col-span-4 md:place-self-end justify-center h-32 md:w-32 bg-slate-100 rounded-full flex items-center rotate">
+                <img src={role} className="h-16 md:h-24" />
               </div>
             </div>
           )}
           <div className="grid grid-cols-12 items-center  px-4 bg-transparent">
-            <div className="col-span-4 w-16 md:w-32 bg-white rounded-full overflow-clip">
+            <div className="col-span-4 w-24 md:w-32 bg-white rounded-full overflow-clip">
               <img src={tech} className="bg-slate-100" />
             </div>
             <div className="col-span-8 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">

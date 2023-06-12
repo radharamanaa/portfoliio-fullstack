@@ -29,7 +29,7 @@ const SingleExperience: React.FC<SingleExperienceProps> = ({
         {exp.role}
       </div>
       <div className="mt-4 achievements text-sm text-slate-100 mb-4 font-raleway tracking-wider indent-8">
-        {exp.projects}
+        {exp.achievements || exp.projects}
       </div>
     </motion.div>
   );
