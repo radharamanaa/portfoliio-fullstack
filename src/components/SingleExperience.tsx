@@ -2,10 +2,17 @@ import React from "react";
 import { ExperienceData } from "../types/types";
 interface SingleExperienceProps {
   exp: ExperienceData;
+  openPortal: (id: number) => void;
 }
-const SingleExperience: React.FC<SingleExperienceProps> = ({ exp }) => {
+const SingleExperience: React.FC<SingleExperienceProps> = ({
+  exp,
+  openPortal,
+}) => {
   return (
-    <div className="flex flex-col bg-gradient-to-r from-sky-800 to-cyan-800 max-w-sm p-4 cursor-pointer">
+    <div
+      className="flex flex-col mt-8 bg-gradient-to-r from-sky-800 to-cyan-800 max-w-sm p-4 cursor-pointer"
+      onClick={() => openPortal(exp.id)}
+    >
       <div className="company-name  text-slate-100 self-center text-xl font-playfair first-letter:text-lime-400">
         {exp.company}
       </div>

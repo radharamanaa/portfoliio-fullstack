@@ -14,7 +14,7 @@
     "company": "Zemoso Labs",
     "duration": "May 2021 - Feb 2023",
     "aboutCompany": "A product-market-fit studio founded and maintained by successful corporate innovation with Baker-Hughes(Oil & Gas) as a Client.",
-    "role": "Senior Software DET",
+    "role": "Senior Software Dev Eng in Test",
     "techUsed": "Java, Spring Framework, Javascript, HTML5, CSS3, ReactJS, NextJS, SQL ",
     "projects": "IAPM - Developed tools which read API data from the user and generate JSON files for Cyborg(Testing tool). Front end, BDD test scripting in Cyborg. Logging bugs, Validating User Stories, promoting builds, acceptance discussions were the roles.",
     "achievements": "Letter of Excellence for continuous two quarters for extended myself, developed tools, guided the team in clean code principles, integrated Spring framework in the Testing tool, Cyborg(an in house Selenium wrapper tool). "
