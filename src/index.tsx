@@ -17,27 +17,27 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "portfoliio-fullstack/about",
+        path: "about",
         element: <About />,
       },
       {
-        path: "portfoliio-fullstack/experience",
+        path: "experience",
         element: <Experience />,
       },
       {
-        path: "portfoliio-fullstack/skills",
+        path: "skills",
         element: <Skills />,
       },
       {
-        path: "portfoliio-fullstack/github",
+        path: "github",
         element: <Github />,
       },
       {
-        path: "portfoliio-fullstack/education",
+        path: "education",
         element: <Education />,
       },
       {
-        path: "portfoliio-fullstack/contactme",
+        path: "contactme",
         element: <ContactMe />,
       },
     ],

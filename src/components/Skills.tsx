@@ -8,7 +8,7 @@ interface skill {
 }
 let skillss = skills;
 const Skills: React.FC = () => {
-  const [expanded, setExpanded] = useState<false | number>(0);
+  const [expanded, setExpanded] = useState<false | number>(-1);
   return (
     <div
       className="max-w-4xl mx-auto bg-slate-700/50 flex  gap-4 flex-wrap 
@@ -17,6 +17,7 @@ const Skills: React.FC = () => {
       {skillss.map((skill, i) => (
         <SingleSkillAndRating
           skillrating={skill}
+          key={skill.skill}
           i={i}
           expanded={expanded}
           setExpanded={setExpanded}

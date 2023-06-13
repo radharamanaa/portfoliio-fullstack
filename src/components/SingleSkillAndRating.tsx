@@ -1,6 +1,7 @@
 import React from "react";
 import { SkillRating } from "../types/types";
 import { AnimatePresence, motion } from "framer-motion";
+import starSvg from "../assets/star-solid.svg";
 
 interface SkillAndRatingProps {
   skillrating: SkillRating;
@@ -22,6 +23,7 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
   setExpanded,
 }) => {
   const isOpen = i === expanded;
+
   return (
     <div className="flex flex-col w-64">
       <motion.header
@@ -31,7 +33,12 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
         className="w-64 p-2"
         style={style}
       >
-        {skillrating.skill}
+        <div className="flex">
+          <div className="pr-2">{skillrating.skill}</div>
+          <div className="ratings">
+            <Ratings no={skillrating.rating} />
+          </div>
+        </div>
       </motion.header>
       <AnimatePresence initial={false}>
         {isOpen && (
@@ -64,3 +71,33 @@ const ContentPlaceholder: React.FC<{ para: string }> = ({ para }) => (
   </motion.div>
 );
 export default SingleSkillAndRating;
+
+const Ratings: React.FC<{ no: number }> = ({ no }) => {
+  let arr: number[] = [];
+  for (let index = 0; index < 5; index++) {
+    arr.push(index + 1);
+  }
+  return (
+    <div className="rating flex items-center">
+      {arr.map((item) => {
+        function doIt() {
+          if (item <= no) {
+            return (
+              <div className="w-4">
+                <img src={starSvg} />
+              </div>
+            );
+          } else {
+            return (
+              <div className="w-4 flex items-center">
+                <img src={starSvg} className="text-amber-500" />
+              </div>
+            );
+          }
+        }
+        console.log(doIt(), "rating element");
+        return doIt();
+      })}
+    </div>
+  );
+};
