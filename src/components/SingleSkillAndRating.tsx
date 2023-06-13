@@ -1,7 +1,6 @@
 import React from "react";
 import { SkillRating } from "../types/types";
 import { AnimatePresence, motion } from "framer-motion";
-import starSvg from "../assets/star-solid.svg";
 
 interface SkillAndRatingProps {
   skillrating: SkillRating;
@@ -25,7 +24,12 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
   const isOpen = i === expanded;
 
   return (
-    <div className="flex flex-col w-64">
+    <motion.div
+      className="flex flex-col w-64"
+      initial={{ y: "-150vh" }}
+      animate={{ y: 0 }}
+      transition={{ delay: i * 0.25 }}
+    >
       <motion.header
         initial={false}
         animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
@@ -58,7 +62,7 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
           </motion.section>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 };
 const ContentPlaceholder: React.FC<{ para: string }> = ({ para }) => (

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./App.css";
 import { Outlet, redirect, useLocation, useNavigate } from "react-router-dom";
 import Header from "./components/Header";
+import baseUrl from "./baseUrl";
 
 function App() {
   const location = useLocation();
@@ -11,7 +12,7 @@ function App() {
       location.pathname &&
       location.pathname.includes("portfoliio-fullstack")
     ) {
-      navigate(`${location.pathname}about`);
+      navigate(`${baseUrl}/about`);
     }
   }, []);
 
