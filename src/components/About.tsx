@@ -6,7 +6,7 @@ const About: React.FC = () => {
   return (
     <motion.div
       className="max-w-6xl mx-auto bg-slate-800/50 p-4"
-      initial={{ y: "-100vw" }}
+      initial={{ y: "-200vw" }}
       animate={{ y: 0 }}
       transition={{ delay: 0.5, duration: 1.5, type: "spring", stiffness: 50 }}
     >

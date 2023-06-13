@@ -33,9 +33,9 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
         className="w-64 p-2"
         style={style}
       >
-        <div className="flex">
+        <div className="flex justify-around">
           <div className="pr-2">{skillrating.skill}</div>
-          <div className="ratings">
+          <div className="ratings flex items-center">
             <Ratings no={skillrating.rating} />
           </div>
         </div>
@@ -84,18 +84,28 @@ const Ratings: React.FC<{ no: number }> = ({ no }) => {
           if (item <= no) {
             return (
               <div className="w-4">
-                <img src={starSvg} />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                  <polygon
+                    points="50,0 65,35 100,35 70,60 80,95 50,75 20,95 30,60 0,35 35,35"
+                    fill="yellow"
+                  />
+                </svg>
               </div>
             );
           } else {
             return (
               <div className="w-4 flex items-center">
-                <img src={starSvg} className="text-amber-500" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                  <polygon
+                    points="50,0 65,35 100,35 70,60 80,95 50,75 20,95 30,60 0,35 35,35"
+                    stroke="black"
+                    fill="#fff"
+                  />
+                </svg>
               </div>
             );
           }
         }
-        console.log(doIt(), "rating element");
         return doIt();
       })}
     </div>
