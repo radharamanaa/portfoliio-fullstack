@@ -1,24 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import baseUrl from "../baseUrl";
 
 const RightHeader: React.FC = () => {
+  const location = useLocation();
   return (
     <motion.div className="flex justify-around items-center gap-4 flex-wrap mt-8 md:mt-0">
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="experience">Experience</NavLink>
+        <NavLink to={`${baseUrl}/experience`}>Experience</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="skills">Skills</NavLink>
+        <NavLink to={`${baseUrl}/skills`}>Skills</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="github">GitHub Profile</NavLink>
+        <NavLink to={`${baseUrl}/github`}>GitHub Profile</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="education">Education</NavLink>
+        <NavLink to={`${baseUrl}/education`}>Education</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to="contactme">Contact Me</NavLink>
+        <NavLink to={`${baseUrl}/contactme`}>Contact Me</NavLink>
       </motion.div>
     </motion.div>
   );

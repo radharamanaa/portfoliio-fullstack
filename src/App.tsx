@@ -11,7 +11,7 @@ function App() {
       location.pathname &&
       location.pathname.includes("portfoliio-fullstack")
     ) {
-      navigate("portfoliio-fullstack/about");
+      navigate(`${location.pathname}about`);
     }
   }, []);
 
