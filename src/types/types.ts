@@ -8,3 +8,8 @@ export interface ExperienceData {
   projects: string;
   achievements: string;
 }
+export interface SkillRating {
+  skill: string;
+  rating: number;
+  info: string;
+}
