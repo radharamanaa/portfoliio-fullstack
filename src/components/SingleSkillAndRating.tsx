@@ -58,7 +58,7 @@ const ContentPlaceholder: React.FC<{ para: string }> = ({ para }) => (
   <motion.div
     variants={{ collapsed: { scale: 0.8 }, open: { scale: 1 } }}
     transition={{ duration: 0.8 }}
-    className="max-w-sm text-slate-900 justify-center"
+    className="max-w-sm text-slate-900 justify-center font-raleway"
   >
     {para}
   </motion.div>
