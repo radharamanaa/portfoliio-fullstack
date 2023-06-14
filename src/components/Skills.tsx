@@ -24,7 +24,8 @@ const Skills: React.FC = () => {
     <AnimatePresence>
       <motion.div
         className="max-w-4xl mx-auto bg-slate-700/50 flex  gap-4 flex-wrap 
-    justify-center mb-8 mt-8 h-screen p-8"
+    justify-center mb-8 mt-8 h-screen p-8 bg-gradient-to-tr from-blue-700 to-purple-800 rounded-lg
+    shadow-md shadow-red-400"
         exit={{
           x: "150vw",
           transition: { type: "spring", damping: 7, duration: 2 },
