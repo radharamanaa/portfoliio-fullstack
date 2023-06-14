@@ -10,7 +10,7 @@ const Education: React.FC = () => {
       animate={{ y: 0 }}
       transition={{ delay: 0.2, type: "spring", stiffness: 40 }}
     >
-      Contact me - In Progress
+      Education - In Progress
     </motion.div>
   );
 };
