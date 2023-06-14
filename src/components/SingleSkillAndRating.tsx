@@ -103,7 +103,8 @@ const Ratings: React.FC<{ no: number }> = ({ no }) => {
                   <polygon
                     points="50,0 65,35 100,35 70,60 80,95 50,75 20,95 30,60 0,35 35,35"
                     stroke="black"
-                    fill="#fff"
+                    fill="none"
+                    stroke-width="4"
                   />
                 </svg>
               </div>

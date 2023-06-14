@@ -35,6 +35,11 @@
     "info": "You can find 3+ repos in my Github with ReactJS and typescript. Typescript has a robuts type system and it is worth the overhead."
   },
   {
+    "skill": "React Router",
+    "rating": 4,
+    "info": "Used the latest version of React-router in Valuelabs for Valuepedia and Survey Form Generator!"
+  },
+  {
     "skill": "HTML",
     "rating": 4,
     "info": "Have been using HTML and CSS from over 10 years now. Flexbox and Grid have stolen my heart."
@@ -53,5 +58,10 @@
     "skill": "VueJS",
     "rating": 3,
     "info": "Experience in Current company. Valuepedia project built on VueJS front end running on NGINX"
+  },
+  {
+    "skill": "NextJs",
+    "rating": 3,
+    "info": "Used NextJs on freelance projects. Have practical experience on the same."
   }
 ]
