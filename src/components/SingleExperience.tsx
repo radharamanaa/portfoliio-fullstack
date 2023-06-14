@@ -18,6 +18,10 @@ const SingleExperience: React.FC<SingleExperienceProps> = ({
       initial={{ x: "-150vw" }}
       animate={{ x: 0 }}
       transition={{ delay: index }}
+      whileHover={{
+        scale: 1.05,
+        transition: { type: "tween" },
+      }}
     >
       <div className="company-name  text-slate-100 self-center text-xl font-playfair first-letter:text-lime-400">
         {exp.company}

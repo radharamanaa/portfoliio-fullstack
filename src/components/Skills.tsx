@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import skills from "../data/skills.json";
 import SingleSkillAndRating from "./SingleSkillAndRating";
 interface skill {
@@ -9,6 +9,13 @@ interface skill {
 let skillss = skills;
 const Skills: React.FC = () => {
   const [expanded, setExpanded] = useState<false | number>(-1);
+  let timeout = setTimeout(() => setExpanded(0), 3000);
+  useEffect(() => {
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
+
   return (
     <div
       className="max-w-4xl mx-auto bg-slate-700/50 flex  gap-4 flex-wrap 
