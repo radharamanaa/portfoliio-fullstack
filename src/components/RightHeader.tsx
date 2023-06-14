@@ -14,7 +14,9 @@ const RightHeader: React.FC = () => {
         <NavLink to={`${baseUrl}/skills`}>Skills</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
-        <NavLink to={`${baseUrl}/github`}>GitHub Profile</NavLink>
+        <a href="https://github.com/radharamanaa" target="_blank">
+          GitHub Profile
+        </a>
       </motion.div>
       <motion.div className="cursor-pointer text-white font-raleway tracking-wider">
         <NavLink to={`${baseUrl}/education`}>Education</NavLink>

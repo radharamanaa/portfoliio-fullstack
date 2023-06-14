@@ -25,7 +25,7 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
 
   return (
     <motion.div
-      className="flex flex-col w-64"
+      className="flex flex-col w-64 md:w-72 flex-wrap justify-stretch"
       initial={{ y: "-150vh" }}
       animate={{ y: 0 }}
       transition={{ delay: i * 0.25 }}
@@ -34,11 +34,11 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
         initial={false}
         animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
         onClick={() => setExpanded(isOpen ? false : i)}
-        className="w-64 p-2"
+        className="w-64 p-2 md:w-72"
         style={style}
       >
-        <div className="flex justify-around">
-          <div className="pr-2">{skillrating.skill}</div>
+        <div className="flex justify-between">
+          <div className="px-2">{skillrating.skill}</div>
           <div className="ratings flex items-center">
             <Ratings no={skillrating.rating} />
           </div>
