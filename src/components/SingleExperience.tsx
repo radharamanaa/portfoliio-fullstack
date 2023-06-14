@@ -13,7 +13,7 @@ const SingleExperience: React.FC<SingleExperienceProps> = ({
 }) => {
   return (
     <motion.div
-      className="flex flex-col mt-8 bg-gradient-to-r from-sky-800 to-cyan-800 max-w-sm p-4 cursor-pointer"
+      className="flex flex-col mt-8 bg-gradient-to-r from-sky-800 to-cyan-800 max-w-sm p-4 cursor-pointer shadow-md shadow-lime-200"
       onClick={() => openPortal(exp.id)}
       initial={{ x: "-150vw" }}
       animate={{ x: 0 }}
