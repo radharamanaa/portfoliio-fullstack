@@ -3,6 +3,7 @@ import "./App.css";
 import { Outlet, redirect, useLocation, useNavigate } from "react-router-dom";
 import Header from "./components/Header";
 import baseUrl from "./baseUrl";
+import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   const location = useLocation();
@@ -21,7 +22,9 @@ function App() {
       <div className="h-screen">
         <div className="">
           <Header />
-          <Outlet />
+          <AnimatePresence>
+            <Outlet />
+          </AnimatePresence>
         </div>
       </div>
     </>

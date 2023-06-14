@@ -29,6 +29,8 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
       initial={{ y: "-150vh" }}
       animate={{ y: 0 }}
       transition={{ delay: i * 0.25 }}
+      exit={{ x: "-150vw" }}
+      key={skillrating.skill}
     >
       <motion.header
         initial={false}
