@@ -11,7 +11,7 @@ interface PortalProps {
 const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
   return (
     <div
-      className="absolute bg-slate-900/90 flex 
+      className="fixed bg-slate-900/90 flex 
     justify-center items-center z-10 w-full h-screen inset-0 bottom-0"
     >
       <motion.div
