@@ -61,7 +61,7 @@ const Portal: React.FC<PortalProps> = ({ exp, closeModal }) => {
             <div className="col-span-4 w-24 md:w-32 bg-white rounded-full overflow-clip">
               <img src={tech} className="bg-slate-100" />
             </div>
-            <div className="col-span-8 mt-4 achievements text-sm max-w-prose text-slate-100 mb-4  tracking-wider ">
+            <div className="col-span-8 mt-4 achievements text-sm max-w-prose text-slate-700 mb-4  tracking-wider ">
               {exp.techUsed}
             </div>
           </div>
