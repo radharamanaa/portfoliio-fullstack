@@ -19,7 +19,7 @@ const About: React.FC = () => {
             initial={{ y: "-200vw" }}
             animate={{ y: 0 }}
             transition={{
-              delay: 2,
+              delay: 1,
               duration: 2,
               type: "tween",
             }}
