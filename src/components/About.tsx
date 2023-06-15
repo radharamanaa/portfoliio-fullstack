@@ -5,10 +5,10 @@ import svgImage from "../assets/undraw_developer_activity_re_39tg (1).svg";
 const About: React.FC = () => {
   return (
     <motion.div
-      className="max-w-6xl mx-auto bg-gradient-to-tr from-lime-200  to-emerald-200 p-4 shadow-md shadow-slate-400"
-      initial={{ y: "-200vw" }}
-      animate={{ y: 0 }}
-      transition={{ delay: 0.5, duration: 1.5, type: "spring", stiffness: 50 }}
+      className="max-w-6xl mx-auto bg-red-800 rounded-2xl p-4 shadow-md shadow-slate-400 relative"
+      initial={{ x: "200vh" }}
+      animate={{ x: 0 }}
+      transition={{ delay: 0.5, duration: 1.5, type: "tween" }}
     >
       <motion.div className="grid grid-cols-12 pt-12 intro mx-auto text-white mt-8 pb-16 ">
         <div className="col-span-12 md:col-span-8  w-full mx-auto">
@@ -20,13 +20,12 @@ const About: React.FC = () => {
             transition={{
               delay: 2,
               duration: 2,
-              type: "spring",
-              stiffness: 100,
+              type: "tween",
             }}
           >
             <div
               className="align-middle flex justify-center md:justify-start text-2xl md:text-6xl font-playfair 
-                   mt-4 md:mt-16 first-letter:text-lime-400 relative "
+                   mt-4 md:mt-8 first-letter:text-lime-400 relative "
             >
               {/* <span className="text-lime-400">F</span>ull{" "}
               <span className="text-lime-400">&nbsp;S</span>tack Developer */}
@@ -38,17 +37,7 @@ const About: React.FC = () => {
                 Full Stack Developer
               </span>
             </div>
-            <motion.div
-              className="text-sm mt-4 tracking-widest  max-w-lg text-slate-600 font-semibold"
-              initial={{ y: "-200vw" }}
-              animate={{ y: 0 }}
-              transition={{
-                delay: 4,
-                duration: 2,
-                type: "spring",
-                stiffness: 100,
-              }}
-            >
+            <div className="text-sm mt-4 mb-4 tracking-widest  max-w-lg text-slate-600 font-semibold">
               I am a highly skilled and motivated Full-Stack Developer with
               expertise in Java, ReactJS, SQL & JavaScript.
               <br />
@@ -60,7 +49,7 @@ const About: React.FC = () => {
               web applications., passionate about crafting elegant solutions to
               complex problems and thrive in collaborative environments.
               <br />
-            </motion.div>
+            </div>
           </motion.div>
         </div>
         <div className="hidden col-auto md:col-span-4 bg-transparent p-2 md:flex items-center relative ">
