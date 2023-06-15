@@ -37,7 +37,7 @@ const About: React.FC = () => {
                 Full Stack Developer
               </span>
             </div>
-            <div className="text-sm mt-4 mb-4 tracking-widest  max-w-lg text-slate-600 font-semibold">
+            <div className="text-sm mt-4 mb-4 tracking-widest  max-w-lg   text-slate-700">
               I am a highly skilled and motivated Full-Stack Developer with
               expertise in Java, ReactJS, SQL & JavaScript.
               <br />
