@@ -15,7 +15,7 @@ const About: React.FC = () => {
           <motion.div
             className="flex flex-col p-4 gap-4 bg-slate-100 shadow-md shadow-slate-100  ml-8 w-10/12 rounded-2xl
             border-dashed border-slate-600 border"
-            initial={{ y: "-100vw" }}
+            initial={{ y: "-200vw" }}
             animate={{ y: 0 }}
             transition={{
               delay: 2,
