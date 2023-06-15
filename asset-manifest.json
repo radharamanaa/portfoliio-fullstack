@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfoliio-fullstack/static/css/main.fa42a97f.css",
-    "main.js": "/portfoliio-fullstack/static/js/main.8918d1ef.js",
+    "main.js": "/portfoliio-fullstack/static/js/main.96fe346f.js",
     "static/media/isometric-blockchain-technology-for-cryptocurrencies.png": "/portfoliio-fullstack/static/media/isometric-blockchain-technology-for-cryptocurrencies.0efd19d75db4b95ae037.png",
     "static/media/undraw_programming_re_kg9v.svg": "/portfoliio-fullstack/static/media/undraw_programming_re_kg9v.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/undraw_developer_activity_re_39tg (1).svg": "/portfoliio-fullstack/static/media/undraw_developer_activity_re_39tg (1).a38f22324539c16626e93eaa54d3510b.svg",
     "index.html": "/portfoliio-fullstack/index.html",
     "main.fa42a97f.css.map": "/portfoliio-fullstack/static/css/main.fa42a97f.css.map",
-    "main.8918d1ef.js.map": "/portfoliio-fullstack/static/js/main.8918d1ef.js.map"
+    "main.96fe346f.js.map": "/portfoliio-fullstack/static/js/main.96fe346f.js.map"
   },
   "entrypoints": [
     "static/css/main.fa42a97f.css",
-    "static/js/main.8918d1ef.js"
+    "static/js/main.96fe346f.js"
   ]
 }
