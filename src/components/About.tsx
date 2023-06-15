@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import svgImage from "../assets/undraw_developer_activity_re_39tg (1).svg";
+import developerSVG from "../assets/undraw_programming_re_kg9v.svg";
 
 const About: React.FC = () => {
   return (
@@ -23,16 +24,15 @@ const About: React.FC = () => {
               type: "tween",
             }}
           >
+            <div className="flex md:hidden w-40 justify-center mx-auto">
+              <div className="dev flex justify-center self-center text-center mx-auto">
+                <img src={developerSVG} alt="" className="self-center" />
+              </div>
+            </div>
             <div
               className="align-middle flex justify-center md:justify-start text-2xl md:text-6xl font-playfair 
                    mt-4 md:mt-8 first-letter:text-lime-400 relative "
             >
-              {/* <span className="text-lime-400">F</span>ull{" "}
-              <span className="text-lime-400">&nbsp;S</span>tack Developer */}
-              {/* <div
-                className="absolute inset-0 bg-gradient-to-tr from-lime-100  to-emerald-100 w-11/12
-                          -z-10 -translate-y-10 rounded-lg  -translate-x-6 h-80"
-              ></div> */}
               <span className="bg-gradient-to-r from-orange-500  to-orange-800 bg-clip-text text-transparent ">
                 Full Stack Developer
               </span>
