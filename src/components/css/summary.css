@@ -1,0 +1,17 @@
+.rounded-100 {
+  border-radius: 100%;
+}
+
+.main-content {
+  grid-column-start: 2;
+  grid-column-end: -2;
+}
+.right-arr {
+  grid-column-start: -1;
+  grid-column-end: -2;
+}
+
+.left-arr {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}

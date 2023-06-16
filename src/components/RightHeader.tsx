@@ -19,7 +19,7 @@ const RightHeader: React.FC = () => {
         </a>
       </motion.div>
       <motion.div className="cursor-pointer text-slate-900 font-raleway tracking-wider">
-        <NavLink to={`${baseUrl}/education`}>Education</NavLink>
+        <NavLink to={`${baseUrl}/aboutme`}>About Me</NavLink>
       </motion.div>
       <motion.div className="cursor-pointer text-slate-900 font-raleway tracking-wider">
         <NavLink to={`${baseUrl}/contactme`}>Contact Me</NavLink>

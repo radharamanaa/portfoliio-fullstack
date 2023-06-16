@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Github from "./components/Github";
 import Education from "./components/Education";
 import ContactMe from "./components/ContactMe";
+import Summary from "./components/Summary";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
         element: <Github />,
       },
       {
-        path: "education",
-        element: <Education />,
+        path: "aboutme",
+        element: <Summary />,
       },
       {
         path: "contactme",
