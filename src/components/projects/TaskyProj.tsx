@@ -16,6 +16,9 @@ const TaskyProj: React.FC = () => {
             Project enables you to add, edit and delete tasks. You can also
             search tasks, mark favorite and filter by category. Clicking on
             Search, also clears the search!
+            <br />
+            <br />
+            Please click here to Navigate to the project
           </a>
         </div>
       </div>

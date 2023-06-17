@@ -14,7 +14,7 @@ const ThisProject = () => {
             <br />
             <br />
             <span className="underline">
-              Please click here to Navigate to the project
+              Please click here to Navigate to the project.
             </span>
           </a>
         </div>

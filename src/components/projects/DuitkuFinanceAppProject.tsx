@@ -15,6 +15,9 @@ const DuitkuFinanceAppProject: React.FC = () => {
             This site is a display of my Front end development Skills. I am a
             pro in TailwindCSS, HTML and CSS technologies. I have got
             appreciations for trainings for the same.
+            <br />
+            <br />
+            Click here to navigate.
           </a>
         </div>
       </div>
