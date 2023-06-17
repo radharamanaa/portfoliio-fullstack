@@ -11,6 +11,7 @@ import Github from "./components/Github";
 import Education from "./components/Education";
 import ContactMe from "./components/ContactMe";
 import Summary from "./components/Summary";
+import Projects from "./components/projects/Projects";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "aboutme",
         element: <Summary />,
+      },
+      {
+        path: "myprojects",
+        element: <Projects />,
       },
       {
         path: "contactme",

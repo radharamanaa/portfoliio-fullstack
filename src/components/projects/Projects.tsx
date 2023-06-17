@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import Summary1 from "./summary/Summary1";
-import "./css/summary.css";
-import Summary2 from "./summary/Summary2";
-import Summary3 from "./summary/Summary3";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import ThisProject from "./ThisProject";
+import TaskyProj from "./TaskyProj";
+import DuitkuFinanceAppProject from "./DuitkuFinanceAppProject";
 
-const Summary: React.FC = () => {
+const Projects: React.FC = () => {
   const [articleNo, setArticleNo] = useState<number>(1);
   function moveRight() {
     setArticleNo((art) => {
@@ -27,26 +26,16 @@ const Summary: React.FC = () => {
   }
   return (
     <div className="bg-gradient-to-br from-emerald-700  to-indigo-600 py-6 pb-16">
-      <div
-        className="max-w-6xl mx-auto bg-slate-100 rounded-2xl p-4 shadow-md shadow-slate-400 mt-8 
-      "
-      >
-        <div className="flex flex-col border-dashed border border-slate-800 rounded-lg w-11/12 mx-auto justify-start h-[35rem]">
-          <div
-            className="text-4xl mx-auto font-playfair text-slate-900 
-          underline underline-offset-2 mt-4 mb-8"
-          >
-            {articleNo == 1 && "Skilled, independent full-stack developer."}
-            {articleNo == 2 && "Skilled Front End Dev, Team Lead"}
-            {articleNo == 3 && "Problem Solver & Learner"}
-          </div>
+      <div className="max-w-6xl mx-auto bg-slate-100 rounded-2xl p-4 shadow-md shadow-slate-400 mt-8">
+        <div className="flex flex-col border-dashed border border-slate-800 rounded-lg w-11/12 mx-auto justify-start">
           <div className="grid grid-cols-12 text-sm md:text-lg p-2 text-slate-800 mx-auto first-letter:text-2xl relative">
             <div
-              className="rounded-100 p-2 w-12 left-arr flex items-center
+              className="rounded-100 p-2 w-12 left-arr flex top-1/3 relative
+              -left-6
             text-4xl  text-slate-900 cursor-pointer"
               onClick={moveLeft}
             >
-              <div className=" w-8">
+              <div className="w-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -71,7 +60,7 @@ const Summary: React.FC = () => {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 2 }}
                 >
-                  <Summary1 />
+                  <ThisProject />
                 </motion.div>
               )}
               {articleNo == 2 && (
@@ -83,7 +72,7 @@ const Summary: React.FC = () => {
                   transition={{ duration: 2 }}
                   //   exit={{ opacity: 0, transition: { duration: 1 } }}
                 >
-                  <Summary2 />
+                  <TaskyProj />
                 </motion.div>
               )}
               {articleNo == 3 && (
@@ -95,13 +84,14 @@ const Summary: React.FC = () => {
                   transition={{ duration: 2 }}
                   //   exit={{ opacity: 0, transition: { duration: 1 } }}
                 >
-                  <Summary3 />
+                  <DuitkuFinanceAppProject />
                 </motion.div>
               )}
             </AnimatePresence>
             <div
-              className="px-2 py-2 right-arr flex 
-             text-4xl justify-start items-center
+              className="px-2 py-2 right-arr flex top-1/3 relative
+              -right-4
+             text-4xl justify-start
              text-slate-900 cursor-pointer"
               onClick={moveRight}
             >
@@ -127,4 +117,4 @@ const Summary: React.FC = () => {
   );
 };
 
-export default Summary;
+export default Projects;

@@ -63,5 +63,10 @@
     "skill": "NextJs",
     "rating": 3,
     "info": "Used NextJs on freelance projects. Have practical experience on the same."
+  },
+  {
+    "skill": "Nginx",
+    "rating": 3,
+    "info": "Fixed Security issues on site Valuepedia namely Content Security Policy and HSTS which serves static data using Nginx"
   }
 ]
