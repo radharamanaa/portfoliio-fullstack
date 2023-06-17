@@ -35,7 +35,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="fixed bottom-0 bg-slate-800 w-full text-slate-100 flex justify-center items-center text-lg">
+      <div className="fixed bottom-0 bg-slate-800 w-full text-slate-100 flex justify-center items-center text-xs md:text-md p-2">
         <div className="mx-auto w-8/12 text-center font-thin tracking-wide">
           Welcome to my portfolio website. Please find all the required
           information about me here!

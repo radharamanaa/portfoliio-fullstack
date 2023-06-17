@@ -5,7 +5,7 @@ import baseUrl from "../baseUrl";
 
 const RightHeader: React.FC = () => {
   return (
-    <div className="flex justify-around items-center gap-4 flex-wrap mt-8 md:mt-0">
+    <div className="flex justify-around items-center gap-4 flex-wrap mt-8 md:mt-0 text-sm">
       <div className="cursor-pointer text-slate-900 font-raleway tracking-wider">
         <NavLink to={`${baseUrl}/experience`}>Experience</NavLink>
       </div>
