@@ -33,25 +33,25 @@ const Summary: React.FC = () => {
       >
         <div className="flex flex-col border-dashed border border-slate-800 rounded-lg w-11/12 mx-auto justify-start h-[35rem]">
           <div
-            className="text-2xl md:text-4xl mx-auto font-playfair text-slate-900 
-          mt-4 mb-8"
+            className="text-xl md:text-4xl mx-auto font-playfair text-slate-900 
+          mt-4 mb-8 pl-4"
           >
-            {articleNo == 1 && "Skilled, Independent Full-Stack Developer."}
+            {articleNo == 1 && "Skilled, Independent Full-Stack Developer"}
             {articleNo == 2 && "Skilled Front End Dev, Team Lead"}
             {articleNo == 3 && "Problem Solver & Learner"}
           </div>
           <div className="grid grid-cols-12 text-sm md:text-lg p-2 text-slate-800 mx-auto first-letter:text-2xl relative">
             <div
-              className="rounded-100 p-2 w-12 left-arr flex items-center
+              className="rounded-100 p-2 w-12 left-arr flex items-center -left-8
             text-4xl  text-slate-900 cursor-pointer"
               onClick={moveLeft}
             >
-              <div className=" w-8">
+              <div className="relative -left-10 w-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6  md:w-12 md:h-12"
+                  className="w-12 h-12"
                 >
                   <path
                     fill-rule="evenodd"
@@ -110,7 +110,7 @@ const Summary: React.FC = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 md:w-12 md:h-12"
+                  className="w-12 h-12"
                 >
                   <path
                     fill-rule="evenodd"

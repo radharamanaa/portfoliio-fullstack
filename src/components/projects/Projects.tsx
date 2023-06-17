@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
     });
   }
   return (
-    <div className="bg-gradient-to-br from-emerald-700  to-indigo-600 py-6 pb-16">
+    <div className="">
       <div className="max-w-6xl mx-auto bg-slate-100 rounded-2xl p-4 shadow-md shadow-slate-400 mt-8">
         <div className="flex flex-col border-dashed border border-slate-800 rounded-lg w-11/12 mx-auto justify-start">
           <div className="grid grid-cols-12 text-sm md:text-lg p-2 text-slate-800 mx-auto first-letter:text-2xl relative">

@@ -8,7 +8,12 @@ import { motion, AnimatePresence } from "framer-motion";
 function App() {
   const location = useLocation();
   const navigate = useNavigate();
+  function makeRefreshNavigateToHome(e: BeforeUnloadEvent): void {
+    e.preventDefault();
+    console.log(window.location);
+  }
   useEffect(() => {
+    window.onbeforeunload = makeRefreshNavigateToHome;
     if (
       location.pathname &&
       location.pathname.includes("portfoliio-fullstack")
