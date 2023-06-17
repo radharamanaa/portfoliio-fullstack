@@ -6,10 +6,7 @@ const ThisProject = () => {
       </div>
       <div className="mt-4">
         <div className="text-lg font-playfair w-full mt-4 max-w-prose">
-          <a
-            href="https://radharamanaa.github.io/portfoliio-fullstack/"
-            target="_blank"
-          >
+          <a href="https://radharamanaa.github.io/portfoliio-fullstack/">
             This project is made with{" "}
             <span className="text-red-700 text-2xl">&hearts;</span> using
             TailwindCSS, ReactJS, Typescript, HTML, CSS technologies. For
