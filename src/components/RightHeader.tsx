@@ -1,6 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import baseUrl from "../baseUrl";
 
 const RightHeader: React.FC = () => {
