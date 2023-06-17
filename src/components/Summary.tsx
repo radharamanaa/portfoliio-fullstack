@@ -36,7 +36,7 @@ const Summary: React.FC = () => {
             className="text-4xl mx-auto font-playfair text-slate-900 
           underline underline-offset-2 mt-4 mb-8"
           >
-            {articleNo == 1 && "Skilled, independent full-stack developer."}
+            {articleNo == 1 && "Skilled, i=Independent Full-Stack Developer."}
             {articleNo == 2 && "Skilled Front End Dev, Team Lead"}
             {articleNo == 3 && "Problem Solver & Learner"}
           </div>
