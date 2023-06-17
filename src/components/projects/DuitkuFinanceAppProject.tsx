@@ -7,7 +7,7 @@ const DuitkuFinanceAppProject: React.FC = () => {
         Duitku Finance Site
       </div>
       <div className="">
-        <div className="text-lg font-playfair w-full mt-4 max-w-prose">
+        <div className="text-lg font-playfair w-full mt-8 max-w-prose">
           <a
             href="https://radharamanaa.github.io/Duitku-Finance-Sample-Design/"
             target="_blank"

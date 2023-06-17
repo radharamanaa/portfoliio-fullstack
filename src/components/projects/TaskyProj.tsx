@@ -7,12 +7,13 @@ const TaskyProj: React.FC = () => {
         Tasky App
       </div>
       <div className="">
-        <div className="text-lg font-playfair w-full mt-4 max-w-prose">
+        <div className="text-lg font-playfair max-w-prose max-w-prose mt-8">
           <a
             href="https://radharamanaa.github.io/Duitku-Finance-Sample-Design/"
             target="_blank"
           >
-            Tasky app is an app made in Redux, React and Javascript with &love;
+            Tasky app is an app made in Redux, React and Javascript with &nbsp;
+            <span className="text-red-700 text-2xl">&hearts;</span>
             <br />
             <br />
             Project enables you to add, edit and delete tasks. You can also

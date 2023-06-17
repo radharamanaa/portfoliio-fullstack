@@ -10,9 +10,10 @@ const ThisProject = () => {
             href="https://radharamanaa.github.io/portfoliio-fullstack/"
             target="_blank"
           >
-            This project is made with &love; using TailwindCSS, ReactJS,
-            Typescript, HTML, CSS technologies. For animations in this project,
-            framer motion was used.
+            This project is made with{" "}
+            <span className="text-red-700 text-2xl">&hearts;</span> using
+            TailwindCSS, ReactJS, Typescript, HTML, CSS technologies. For
+            animations in this project, framer motion was used.
           </a>
         </div>
       </div>
