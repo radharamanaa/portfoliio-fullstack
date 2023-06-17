@@ -7,7 +7,7 @@ const ContactMe: React.FC = () => {
         LinkedIn
       </div>
       <div className="">
-        <div className="text-lg font-playfair w-full mt-4">
+        <div className="text-lg font-playfair w-full mt-4 underline">
           <a
             href="https://www.linkedin.com/in/abhijeet-mishra-24a3b695/"
             target="_blank"

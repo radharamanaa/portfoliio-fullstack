@@ -5,11 +5,7 @@
 body {
   background-image: url("./images/beams.jpg");
 }
-@layer components {
-  .active {
-    @apply bg-slate-800 text-slate-100 font-playfair px-6 py-2 rounded-lg shadow-md;
-  }
-}
+
 .bg-gradient {
   /* background: rgb(51, 65, 85);
   background: radial-gradient(
@@ -17,4 +13,10 @@ body {
     rgba(51, 65, 85, 1) 83%,
     rgba(41, 37, 36, 1) 100%
   ); */
+}
+
+@layer components {
+  .active {
+    @apply bg-slate-800 text-slate-100 font-playfair px-6 py-2 rounded-lg shadow-md;
+  }
 }

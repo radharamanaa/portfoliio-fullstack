@@ -33,10 +33,10 @@ const Summary: React.FC = () => {
       >
         <div className="flex flex-col border-dashed border border-slate-800 rounded-lg w-11/12 mx-auto justify-start h-[35rem]">
           <div
-            className="text-4xl mx-auto font-playfair text-slate-900 
+            className="text-2xl md:text-4xl mx-auto font-playfair text-slate-900 
           underline underline-offset-2 mt-4 mb-8"
           >
-            {articleNo == 1 && "Skilled, i=Independent Full-Stack Developer."}
+            {articleNo == 1 && "Skilled, Independent Full-Stack Developer."}
             {articleNo == 2 && "Skilled Front End Dev, Team Lead"}
             {articleNo == 3 && "Problem Solver & Learner"}
           </div>
