@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfoliio-fullstack/static/css/main.4c461b87.css",
-    "main.js": "/portfoliio-fullstack/static/js/main.0adb2fe1.js",
+    "main.js": "/portfoliio-fullstack/static/js/main.5fbdd45a.js",
     "static/media/My Pic distorted.png": "/portfoliio-fullstack/static/media/My Pic distorted.dc12fe08792eaa841ff6.png",
     "static/media/isometric-blockchain-technology-for-cryptocurrencies.png": "/portfoliio-fullstack/static/media/isometric-blockchain-technology-for-cryptocurrencies.0efd19d75db4b95ae037.png",
     "static/media/beams.jpg": "/portfoliio-fullstack/static/media/beams.cad9520f894ca61faf68.jpg",
     "index.html": "/portfoliio-fullstack/index.html",
     "main.4c461b87.css.map": "/portfoliio-fullstack/static/css/main.4c461b87.css.map",
-    "main.0adb2fe1.js.map": "/portfoliio-fullstack/static/js/main.0adb2fe1.js.map"
+    "main.5fbdd45a.js.map": "/portfoliio-fullstack/static/js/main.5fbdd45a.js.map"
   },
   "entrypoints": [
     "static/css/main.4c461b87.css",
-    "static/js/main.0adb2fe1.js"
+    "static/js/main.5fbdd45a.js"
   ]
 }
