@@ -19,6 +19,11 @@ const TaskyProj: React.FC = () => {
             <br />
             <br />
             Please click here to Navigate to the project
+            <br />
+            <br />
+            <a href="https://github.com/radharamanaa/Tasky-Redux">
+              Click here to navigate to the Repository
+            </a>
           </a>
         </div>
       </div>

@@ -6,16 +6,21 @@ const ThisProject = () => {
       </div>
       <div className="mt-4">
         <div className="text-lg font-playfair w-full mt-4 max-w-prose">
-          <a href="https://radharamanaa.github.io/portfoliio-fullstack/">
-            This project is made with{" "}
-            <span className="text-red-700 text-2xl">&hearts;</span> using
-            TailwindCSS, ReactJS, Typescript, HTML, CSS technologies. For
-            animations in this project, framer motion was used.
-            <br />
-            <br />
-            <span className="underline">
-              Please click here to Navigate to the project.
-            </span>
+          This project is made with{" "}
+          <span className="text-red-700 text-2xl">&hearts;</span> using
+          TailwindCSS, ReactJS, Typescript, HTML, CSS technologies. For
+          animations in this project, framer motion was used.{" "}
+          <span className="text-indigo-900">
+            It is the project you are looking at
+          </span>
+          <br />
+          <br />
+          <a
+            href="https://github.com/radharamanaa/portfoliio-fullstack"
+            className="underline"
+            target="_blank"
+          >
+            Please find the Repository of the Project here!
           </a>
         </div>
       </div>

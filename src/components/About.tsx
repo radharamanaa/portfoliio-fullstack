@@ -18,13 +18,12 @@ const About: React.FC = () => {
                 expertise in Java, ReactJS, SQL & JavaScript.
                 <br />
                 <br />
-                With <span className="text-red-600">
-                  6 years of experience
-                </span>{" "}
-                in the industry, I have successfully delivered robust and
-                scalable web applications. I am passionate about crafting
-                elegant solutions to complex problems and thrive in
-                collaborative environments.
+                With{" "}
+                <span className="text-red-600">6+ years of experience</span> in
+                the industry, I have successfully delivered robust and scalable
+                web applications. I am passionate about crafting elegant
+                solutions to complex problems and thrive in collaborative
+                environments.
               </div>
             </div>
           </div>

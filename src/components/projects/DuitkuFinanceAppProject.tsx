@@ -18,6 +18,15 @@ const DuitkuFinanceAppProject: React.FC = () => {
             <br />
             <br />
             Click here to navigate.
+            <br />
+            <br />
+            <a
+              href="https://github.com/radharamanaa/Duitku-Finance-Sample-Design"
+              className=""
+              target="_blank"
+            >
+              Click here to navigate to the Repository.{" "}
+            </a>
           </a>
         </div>
       </div>

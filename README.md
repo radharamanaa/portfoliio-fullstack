@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This App was made using ReactJS, Typescript and TailwindCSS, HTML & CSS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
