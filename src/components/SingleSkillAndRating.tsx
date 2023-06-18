@@ -26,10 +26,6 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
   return (
     <motion.div
       className="flex flex-col w-64 md:w-72 flex-wrap justify-stretch"
-      initial={{ y: "-150vh" }}
-      animate={{ y: 0 }}
-      transition={{ delay: i * 0.25 }}
-      exit={{ x: "-150vw" }}
       key={skillrating.skill}
     >
       <motion.header
@@ -39,12 +35,17 @@ const SingleSkillAndRating: React.FC<SkillAndRatingProps> = ({
         className="w-64 p-2 md:w-72"
         style={style}
       >
-        <div className="flex justify-between">
-          <div className="px-2">{skillrating.skill}</div>
+        <motion.div
+          className="flex justify-between"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: i * 0.25, duration: 1 }}
+        >
+          <motion.div className="px-2">{skillrating.skill}</motion.div>
           <div className="ratings flex items-center">
             <Ratings no={skillrating.rating} />
           </div>
-        </div>
+        </motion.div>
       </motion.header>
       <AnimatePresence initial={false}>
         {isOpen && (
