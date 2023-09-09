@@ -1,5 +1,5 @@
 import React from "react";
-import mypic from "../assets/images/My Pic distorted.png";
+import mypic from "../assets/images/profile-pic (1).png";
 
 import Summary from "./Summary";
 
